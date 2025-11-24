@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TIET Saturnalia 2025 - Register</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header>
+  <img src="images/tiet-logo.png">
+  <h1>TIET Saturnalia 2025 - Register</h1>
+    <p><strong>Date:</strong> October 10 - 12, 2025</p>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="events.html">Events</a>
+    <a href="schedule.html">Schedule</a>
+    <a href="register.html">Registration</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="faqs.html">FAQs</a>
+    <a href="contact.html">Contact</a>
+    
+  </nav>
+</header>
+<main>
+  <section>
+    <h2>Register for the Events</h2>
+      <form action="#" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="phone">Mobile Number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="Mobile Number prefixed by 0" required />
+
+        <label for="event">Select Event:</label>
+        <select id="event" name="event" required>
+          <option value="" disabled selected>Choose an Event--</option>
+          <option value="workshop">Tech Workshop</option>
+          <option value="film-mania">Film Mania</option>
+          <option value="emporia">Emporia - 3.0</option>
+          <option value="valorant">Valorant</option>
+          
+        </select>
+
+        <button type="submit">Register</button>
+      </form>
+
+      <p class="note-paragraph">
+        Registration window shall be available for limited time. This shall be notified well in advance.
+      </p>
+  </section>
+  <aside>
+    <img class="show_image" src="images/culture.jpg" alt="TIET Saturnalia Events">
+  </aside>
+</main>
+<footer>
+  &copy; 2025 Thapar Institute of Engineering & Technology | All rights reserved
+</footer>
+</body>
+</html>
